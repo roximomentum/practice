@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>  <body class="font-sans max-w-md mx-auto mt-12 p-5">
+    <div class="bg-gray-200 p-5 rounded-lg shadow-md">
+      <input
+        type="text"
+        id="display"
+        placeholder="0"
+        readonly
+        class="w-full h-20 text-2xl text-right px-4 mb-4 border-2 border-gray-300 rounded bg-white box-border"
+      />
+      <div class="grid grid-cols-4 gap-2">
+        <button
+          type="button"
+          id="buttonClear"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-500 text-white hover:bg-gray-600"
+        >
+          AC
+        </button>
+
+        <button
+          type="button"
+          id="buttonDelete"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-500 text-white hover:bg-gray-600"
+        >
+          ⌫
+        </button>
+        <button
+          type="button"
+          id="buttonPercent"
+          class="h-20 text-xl border-none rounded cursor-pointer
+          transition-colors duration-200 bg-orange-500 text-white hover:bg-orange-600"
+        >
+          %
+        </button>
+        <button
+          type="button"
+          id="buttonDiv"
+          value="/"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-orange-500 text-white hover:bg-orange-600"
+        >
+          ÷
+        </button>
+
+        <button
+          type="button"
+          id="button7"
+          value="7"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          7
+        </button>
+        <button
+          type="button"
+          id="button8"
+          value="8"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          888
+        </button>
+
+        <button
+          type="button"
+          id="button9"
+          value="9"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          9
+        </button>
+        <button
+          type="button"
+          id="buttonMultiply"
+          value="*"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-orange-500 text-white hover:bg-orange-600"
+        >
+          ×
+        </button>
+        <button
+          type="button"
+          id="button4"
+          value="4"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          4
+        </button>
+        <button
+          type="button"
+          id="button5"
+          value="5"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          5
+        </button>
+
+        <button
+          type="button"
+          id="button6"
+          value="6"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          6
+        </button>
+        <button
+          type="button"
+          id="buttonMinus"
+          value="-"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-orange-500 text-white hover:bg-orange-600"
+        >
+          −
+        </button>
+        <button
+          type="button"
+          id="button1"
+          value="1"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          1
+        </button>
+        <button
+          type="button"
+          id="button2"
+          value="2"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          2
+        </button>
+        <button
+          type="button"
+          id="button3"
+          value="3"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          3
+        </button>
+        <button
+          type="button"
+          id="buttonAdd"
+          value="+"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-orange-500 text-white hover:bg-orange-600 row-span-2"
+        >
+          +
+        </button>
+
+        <button
+          type="button"
+          id="button0"
+          value="0"
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200 col-span-2"
+        >
+          0
+        </button>
+        <button
+          type="button"
+          id="buttonDot"
+          value="."
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-gray-100 text-gray-800 hover:bg-gray-200"
+        >
+          .
+        </button>
+        <button
+          type="button"
+          id="buttonEqual"
+          value="="
+          class="h-20 text-xl border-none rounded cursor-pointer 
+          transition-colors duration-200 bg-orange-500 text-white hover:bg-orange-600"
+        >
+          =
+        </button>
+      </div>
+    </div>
+</html>
